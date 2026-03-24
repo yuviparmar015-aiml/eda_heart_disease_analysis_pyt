@@ -1,45 +1,45 @@
 # ❤️ Heart Disease EDA Analysis
 
-## 📌 Project Description
+## 📌 Project Overview
 
-This project performs **Exploratory Data Analysis (EDA)** on a heart disease dataset to identify important factors that contribute to heart disease.
+This project presents a comprehensive **Exploratory Data Analysis (EDA)** of a heart disease dataset to identify key factors influencing the presence of heart disease.
 
-The analysis includes **data cleaning, visualization, and correlation analysis** to understand patterns between different health parameters.
-
----
-
-## 🎯 Objective
-
-* To analyze heart disease dataset
-* To identify key features affecting heart disease
-* To visualize patterns using graphs
-* To gain insights for future machine learning models
+The analysis involves **data preprocessing, statistical exploration, and visualizations** to uncover meaningful patterns and relationships among clinical features.
 
 ---
 
-## 📂 Dataset Information
+## 🎯 Objectives
 
-* Source: UCI Machine Learning Repository / Kaggle
-* Total Rows: 303
-* Total Columns: 14
+* Analyze the heart disease dataset using EDA techniques
+* Identify significant features influencing heart disease
+* Visualize relationships between variables
+* Generate insights to support future predictive modeling
 
-### Important Features:
+---
 
-* **age** → Age of the person
+## 📂 Dataset Details
+
+* **Source:** UCI Machine Learning Repository / Kaggle
+* **Number of Records:** 303
+* **Number of Features:** 14
+
+### Key Features:
+
+* **age** → Age of the individual
 * **sex** → Gender (0 = Female, 1 = Male)
 * **cp** → Chest pain type
 * **trestbps** → Resting blood pressure
-* **chol** → Cholesterol level
+* **chol** → Serum cholesterol level
 * **thalach** → Maximum heart rate achieved
 * **exang** → Exercise-induced angina (0 = No, 1 = Yes)
-* **oldpeak** → ST depression (important indicator)
-* **target** → 0 = No disease, 1 = Disease
+* **oldpeak** → ST depression induced by exercise
+* **target** → Presence of heart disease (0 = No, 1 = Yes)
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Technologies Used
 
-* Python 🐍
+* Python
 * Pandas
 * NumPy
 * Matplotlib
@@ -48,55 +48,58 @@ The analysis includes **data cleaning, visualization, and correlation analysis**
 
 ---
 
-## 📊 Steps Performed (EDA Process)
+## 📊 Methodology
 
-1. Data Loading
-2. Data Inspection
-3. Data Cleaning
-4. Handling Missing Values
-5. Outlier Detection using IQR
-6. Univariate Analysis
-7. Bivariate Analysis
-8. Correlation Analysis
-9. Data Visualization
+The following steps were performed during the analysis:
 
----
-
-## 📈 Key Insights
-
-* Chest pain type (**cp**) has a strong relationship with heart disease
-* Higher **oldpeak** values indicate higher chances of disease
-* Most affected age group is **40–60 years**
-* **Exercise-induced angina (exang)** is a strong indicator
-* Maximum heart rate (**thalach**) is inversely related to disease risk
+1. Data Loading and Inspection
+2. Data Cleaning and Preprocessing
+3. Handling Missing Values
+4. Outlier Detection using IQR method
+5. Univariate Analysis
+6. Bivariate Analysis
+7. Correlation Analysis
+8. Data Visualization
 
 ---
 
-## 📸 Visualizations
+## 📈 Key Findings
 
-Some important graphs used in this project:
-
-* Count Plot (Chest Pain vs Disease)
-* Age Group Analysis
-* Correlation Heatmap
-* Distribution Plots
-
-*(You can add images in an `images/` folder and link them here)*
+* Chest pain type (**cp**) shows a strong correlation with heart disease
+* Higher values of **oldpeak** are associated with increased risk
+* Individuals aged **40–60 years** show higher incidence
+* **Exercise-induced angina (exang)** is a significant indicator
+* **Maximum heart rate (thalach)** is inversely related to disease risk
 
 ---
 
-## 🚀 How to Run the Project
+## 📊 Visualizations
+
+The analysis includes the following visualizations:
+
+* Count plots (Chest Pain vs Target)
+* Age-based analysis
+* Correlation heatmap
+* Distribution plots
+
+> Note: Visual outputs can be found in the `images/` directory.
+
+---
+
+## 🚀 Getting Started
+
+### Steps to Run:
 
 1. Clone this repository
-2. Open the notebook in Google Colab / Jupyter Notebook
-3. Run all the cells step by step
+2. Open the notebook in Google Colab or Jupyter Notebook
+3. Execute all cells sequentially
 
 ---
 
 ## 📌 Conclusion
 
-EDA helped in identifying important health parameters that affect heart disease.
-These insights can be useful for building predictive machine learning models in the future.
+The EDA process highlights key clinical features that influence heart disease.
+These insights can serve as a foundation for building accurate machine learning models for prediction.
 
 ---
 
@@ -111,12 +114,12 @@ These insights can be useful for building predictive machine learning models in 
 
 ---
 
-## 🙋 Author
+## 👤 Author
 
 **Yuvraj Parmar**
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub.
